@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="My name is Kunal Parekh. I am a Full-stack developer and designer. This is my portfolio website. Here you can know about me!" />
+  <script src="https://kit.fontawesome.com/deb24230a4.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="img/k.png">
+  <link rel="shortcut icon" type="image/png" href="img/k.png">
+  <link rel="stylesheet" href="style/style.css" />
+  <title>Kunal Parekh</title>
+</head>
+
+<body>
+  <section id="website-loading">
+    <div class="circ">
+      <div class="load">Loading . . . </div>
+      <div class="hands"></div>
+      <div class="body"></div>
+      <div class="head">
+        <div class="eye"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="smooth-scroll-wrapper">
+    <header id="home">
+      <div class="home-container">
+        <nav id="navbar">
+          <div id="arrow-line">
+            <svg class="cursorNone" id="arrow-svg" viewBox="0 0 42 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M41.3536 4.35355C41.5488 4.15829 41.5488 3.84171 41.3536 3.64645L38.1716 0.464466C37.9763 0.269204 37.6597 0.269204 37.4645 0.464466C37.2692 0.659728 37.2692 0.976311 37.4645 1.17157L40.2929 4L37.4645 6.82843C37.2692 7.02369 37.2692 7.34027 37.4645 7.53553C37.6597 7.7308 37.9763 7.7308 38.1716 7.53553L41.3536 4.35355ZM0 4.5H41V3.5H0V4.5Z" />
+            </svg>
+          </div>
+          <div id="navbar-links">
+            <ul>
+              <li><a href="#home" class="nav-link nav-link-home">HOME</a></li>
+              <li>
+                <a href="#projects-section" class="nav-link nav-link-projects-section">WORK</a>
+              </li>
+              <li>
+                <a href="#about" class="nav-link nav-link-about">ABOUT</a>
+              </li>
+            </ul>
+          </div>
+          <div id="black-white-toggler">
+            <img class="cursorNone" src="img/toggler.png" alt="black and white toggler" />
+          </div>
+        </nav>
+        <div id="name-title">
+          <div>
+            <h1 class="cursor-Big">Kunal Parekh</h1>
+            <h3 class="cursor-Big">Full Stack Developer & Designer</h3>
+          </div>
+        </div>
+        <canvas id="renderer"></canvas>
+        <div id="home-info">
+          <div id="progresses-description" class="cursorDefault">
+            <p>Here you can find some of my</p>
+            <span id="progresses-animation"><span>progresses</span> <span>works</span>
+              <span>skills</span></span>
+            <p>Just scroll, if you wanna see!</p>
+          </div>
+
+          <div id="contact-content">
+            <p class="cursorDefault">
+              I am founder of LancingDev <br />
+            </p>
+            <div id="contact-box" class="cursorTriangle">
+              <h3 id="contact-1">Contact Me</h3>
+              <h3>Contact Me</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="contact-section">
+      <div id="contact-section-wrap">
+        <div id="contact-content-wrap">
+          <div id="close-contact" class="cursorTriangle">
+            <div id="close-x"></div>
+          </div>
+          <div id="contact-email-box">
+            <p>Contact Me</p>
+            <a id="email-link" class="cursorTriangle" href="mailto:parekhkunal09@gmail.com">
+              <span>parekhkunal09@gmail.com</span>
+            </a>
+          </div>
+          <a id="resume" class="cursorNone" target="_blank" href="img/Kunal_Resume.pdf">
+            <div>
+              <p>Resume</p>
+            </div>
+          </a>
+          <div id="social-contact-section">
+            <p>socially</p>
+            <div id="social-contact">
+              <a target="_blank" class="social-link cursorNone" href="https://github.com/parekhkunal"><i
+                  class="fab fa-github"></i></a>
+              <a target="_blank" class="social-link cursorNone" href="https://twitter.com/LancingDev"><i
+                  class="fab fa-twitter"></i></a>
+              <a target="_blank" class="social-link cursorNone"
+                href="https://www.linkedin.com/in/kunal-parekh-4029311a5/"><i class="fab fa-linkedin-in"></i></a>
+              <a target="_blank" class="social-link cursorNone" href="https://www.instagram.com/_kunalparekh_/"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div id="about-container">
+        <h1 id="about-title" class="cursor-Big">About Me</h1>
+        <div id="about-me-div">
+          <p class="cursorDefault about-p-one">
+            <span class="big-font">H</span><span>ello</span>
+            <span>there,</span> <span>M</span><span>y</span>
+            <span>name</span> <span>is</span> <span>Kunal</span>
+            <span>Parekh.</span> <span>I</span> <span>am</span> <span>a</span>
+            <span>frontend</span> <span>developer</span> <span>and</span>
+            <span>designer.</span> <span>I</span> <span>started</span>
+            <span>programming</span> <span>when</span> <span>I</span>
+            <span>was</span> <span>16</span> <span>years</span>
+            <span>old.</span> <span>I</span> <span>initially</span>
+            <span>started</span> <span>with</span> <span>C</span>
+            <span>(programming</span> <span>language).</span>
+            <span>Then</span> <span>I</span> <span>moved</span>
+            <span>to</span> <span>frontend</span> <span>development</span>
+            <span>as</span> <span>it</span> <span>blends</span>
+            <span>my</span> <span>designing</span> <span>and</span>
+            <span>coding</span> <span>skills</span>
+            <span>together.</span>
+          </p>
+          <br />
+          <p class="cursorDefault about-p-two">
+            <span>I</span> <span>have</span> <span>strong</span>
+            <span>experience</span> <span>in</span> <span>HTML5,</span>
+            <span>CSS3,</span> <span>PHP,</span>
+            <span>JavaScript.</span> <span>I</span> <span>am</span>
+            <span>also</span> <span>good</span> <span>with</span>
+            <span>React,</span> <span>Three.js,</span> <span>jQuery,</span>
+            <span>npm,</span> <span>Bootstrap</span> <span>&</span>
+            <span>Github.</span> <span>I</span> <span>have</span>
+            <span>also</span> <span>professional</span>
+            <span>experience</span> <span>with</span> <span>Coreldraw,</span>
+            <span>Canva.</span>
+          </p>
+          <br />
+          <p class="cursorDefault about-p-three">
+            <span>I</span> <span>have</span> <span>been</span>
+            <span>super</span> <span>excited</span> <span>about</span>
+            <span>technologies</span> <span>and</span> <span>building</span>
+            <span>new</span> <span>things</span> <span>since</span>
+            <span>my</span> <span>childhood.</span> <span>I</span>
+            <span>am</span> <span>a</span> <span>quick</span>
+            <span>learner</span> <span>and</span> <span>hard</span>
+            <span>worker.</span> <span>New</span> <span>technologies</span>
+            <span>and</span> <span>frameworks</span> <span>are</span>
+            <span>not</span> <span>an</span> <span>issue</span>
+            <span>for</span> <span>me.</span> <span>I</span>
+            <span>will</span> <span>learn</span> <span>and</span>
+            <span>start</span> <span>working</span> <span>with</span>
+            <span>that</span> <span>when</span> <span>I</span>
+            <span>need</span> <span>to.</span>
+          </p>
+          <br />
+          <p class="cursorDefault about-p-three">
+            <span>Interested</span> <span>to</span> <span>be</span>
+            <span>part</span> <span>of</span> <span>Lancingdev</span> <span>Company</span>
+          </p>
+          <div class="read-more">
+            <i class="icon-line read-more-item"></i><a class="read-more-btn read-more-item cursorTriangle" href="#"
+              target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects-section">
+      <div class="hidden" id="projects-section-title">
+        <div class="popo hidden">
+          <h1 class="cursor-Big">Works &</h1>
+          <h1 class="cursor-Big">Projects</h1>
+        </div>
+      </div>
+
+      <!-- 1 -->
+      <div id="bogoapps" class="project">
+        <div class="project-showcase">
+          <div class="project-bg" data-tilt data-tilt-max="3" data-tilt-reverse="true" style="
+                background: url('img/lancingdev.png') no-repeat center
+                  center/ cover;
+              ">
+            <div class="img" style="
+                  background: url('img/lancingdev.png') no-repeat center
+                    center/ cover;
+                "></div>
+          </div>
+        </div>
+        <div class="project-title project-title-color">
+          <h1>COMPANY</h1>
+        </div>
+        <div class="project-title project-title-border">
+          <h1>COMPANY</h1>
+        </div>
+        <div class="project-description cursorDefault">
+          <p>
+            This is my Company. I used advance HTML5, <br />
+            CSS3 and JavaScript.
+          </p>
+        </div>
+        <div class="project-count">
+          <h1>01</h1>
+        </div>
+        <a class="project-view-button cursorNone" href="https://lancingdev.com" target="_blank">
+          <div>
+            <p>&nbsp;View&nbsp;website</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- 2 -->
+      <div id="bomcomapps" class="project">
+        <div class="project-showcase">
+          <div class="project-bg" data-tilt data-tilt-max="3" data-tilt-reverse="true" style="
+                background: url('img/port.png') no-repeat
+                  center center/ cover;
+              ">
+            <div class="img" style="
+                  background: url('img/port.png') no-repeat center
+                    center/ cover;
+                "></div>
+          </div>
+        </div>
+        <div class="project-title project-title-color">
+          <h1>PORTFOLIO</h1>
+        </div>
+        <div class="project-title project-title-border">
+          <h1>PORTFOLIO</h1>
+        </div>
+
+        <div class="project-description cursorDefault">
+          <p>
+            I created this website using HTML5, CSS3, <br />JavaScript.
+          </p>
+        </div>
+        <div class="project-count">
+          <h1>02</h1>
+        </div>
+        <a class="project-view-button cursorNone" target="_blank" href="https://bomcom.netlify.app/">
+          <div>
+            <p>&nbsp;View&nbsp;Project</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- 3 -->
+      <div id="luckgame" class="project">
+        <div class="project-showcase">
+          <div class="project-bg" data-tilt data-tilt-max="3" data-tilt-reverse="true" style="
+                background: url('img/notes.png') no-repeat
+                  center center/ cover;
+              ">
+            <div class="img" style="
+                  background: url('img/notes.png') no-repeat
+                    center center/ cover;
+                "></div>
+          </div>
+        </div>
+
+        <div class="project-title project-title-color">
+          <h1>NOTES</h1>
+        </div>
+        <div class="project-title project-title-border">
+          <h1>NOTES</h1>
+        </div>
+
+        <div class="project-description cursorDefault">
+          <p>
+            This is a JavaScript project. I work with ReactJS, <br />CSS, HTML and
+            some cool JavaScript stuff.
+          </p>
+        </div>
+
+        <div class="project-count">
+          <h1>03</h1>
+        </div>
+
+        <a class="project-view-button cursorNone" target="_blank" href="https://parekhkunal.github.io/Notes">
+          <div>
+            <p>&nbsp;View&nbsp;Project</p>
+          </div>
+        </a>
+        <a class="video-view-button cursorTriangle" target="_blank" href="https://github.com/parekhkunal/Notes">
+          <div>
+            <p>GitHub</p>
+          </div>
+          <div>
+            <p>Code</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- 4 -->
+      <div id="iss" class="project">
+        <div class="project-showcase">
+          <div class="project-bg" data-tilt data-tilt-max="3" data-tilt-reverse="true" style="
+                background: url('img/d2wp.png') no-repeat center
+                  center/ cover;
+              ">
+            <div class="img" style="
+                  background: url('img/d2wp.png') no-repeat center
+                    center/ cover;
+                "></div>
+          </div>
+        </div>
+
+        <div class="project-title project-title-color">
+          <h1>D2WP</h1>
+        </div>
+        <div class="project-title project-title-border">
+          <h1>D2WP</h1>
+        </div>
+
+        <div class="project-description cursorDefault">
+          <p>
+            This is one of my API project. I get map of <br />
+            whatsapp. And data in the textform.
+          </p>
+        </div>
+
+        <div class="project-count">
+          <h1>04</h1>
+        </div>
+
+        <a class="project-view-button cursorNone" target="_blank" href="https://parekhkunal.github.io/d2Wp">
+          <div>
+            <p>&nbsp;View&nbsp;Project</p>
+          </div>
+        </a>
+
+        <a class="video-view-button cursorTriangle" target="_blank" href="https://github.com/raihanahmad/ISS-tracker">
+          <div>
+            <p>GitHub</p>
+          </div>
+          <div>
+            <p>Code</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- 5 -->
+      <div id="todotoday" class="project">
+        <div class="project-showcase">
+          <div class="project-bg" data-tilt data-tilt-max="3" data-tilt-reverse="true" style="
+                background: url('img/dashboard.png') no-repeat
+                  center center/ cover;
+              ">
+            <div class="img" style="
+                  background: url('img/dashboard.png') no-repeat
+                    center center/ cover;
+                "></div>
+          </div>
+        </div>
+
+        <div class="project-title project-title-color">
+          <h1>DASHBOARD</h1>
+        </div>
+        <div class="project-title project-title-border">
+          <h1>DASHBOARD</h1>
+        </div>
+
+        <div class="project-description cursorDefault">
+          <p>
+            This is a ReactJS project. here I work with <br />
+            JS, HTML, CSS
+          </p>
+        </div>
+
+        <div class="project-count">
+          <h1>05</h1>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div id="supercar" class="project">
+        <div class="project-showcase">
+          <div class="project-bg" data-tilt data-tilt-max="3" data-tilt-reverse="true" style="
+                background: url('img/card.png') no-repeat
+                  center center/ cover;
+              ">
+            <div class="img" style="
+                  background: url('img/card.png') no-repeat
+                    center center/ cover;
+                "></div>
+          </div>
+        </div>
+
+        <div class="project-title project-title-color">
+          <h1>Custom Card</h1>
+        </div>
+        <div class="project-title project-title-border">
+          <h1>Custom Card</h1>
+        </div>
+
+        <div class="project-description cursorDefault">
+          <p>
+            I BUILD THIS Custom Card USING HTML5, JAVASCRIPT, <br />CSS3.
+          </p>
+        </div>
+
+        <div class="project-count">
+          <h1>06</h1>
+        </div>
+
+        <a class="project-view-button cursorNone" target="_blank" href="mailto:lancingdev@gmail.com">
+          <div>
+            <p>&nbsp;Get&nbsp;Your&nbsp;Own</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <footer id="main-footer">
+      <div id="footer-container">
+        <p class="cursorDefault">
+          &copy;
+          <script>document.write(new Date().getFullYear())</script> Kunal Parekh. <br />All rights are reserved.
+        </p>
+
+        <!-- Social -->
+        <div id="social-contact">
+          <a target="_blank" class="social-link cursorNone" href="https://github.com/parekhkunal"><i
+              class="fab fa-github"></i></a>
+          <a target="_blank" class="social-link cursorNone" href="https://twitter.com/LancingDev"><i
+              class="fab fa-twitter"></i></a>
+          <a target="_blank" class="social-link cursorNone"
+            href="https://www.linkedin.com/in/kunal-parekh-4029311a5/"><i class="fab fa-linkedin-in"></i></a>
+          <a target="_blank" class="social-link cursorNone" href="https://www.instagram.com/_kunalparekh_/"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="JavaScript/app.js"></script>
+  <script src="https://unpkg.com/vanilla-tilt%401.2.2/lib/vanilla-tilt.js"></script>
+  <script src='https://d157l7jdn8e5sf.cloudfront.net/v4.8.3/pixi.js'></script>
+  <script src='https://pixijs.io/examples-v4/pixi-plugins/pixi-legacy.js'></script>
+  <script src='https://pixijs.io/examples-v4/pixi-plugins/pixi-layers.js'></script>
+  <script src='https://pixijs.io/examples-v4/pixi-plugins/pixi-lights.js'></script>
+  <script src="JavaScript/script.js"></script>
+</body>
+
+</html>
