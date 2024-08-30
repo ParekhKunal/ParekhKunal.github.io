@@ -1,19 +1,22 @@
 <style>
-  html, body {
+html, body {
   height: 100%;
   margin: 0;
 }
 
 .centered-content {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  height: 100vh; 
-  font-size: 24px; 
-  text-align: center; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 }
 
-  @keyframes wave-animation {
+.centered-content div {
+  display: block;
+}
+
+@keyframes wave-animation {
   0% { transform: rotate(0deg); }
   10% { transform: rotate(14deg); }
   20% { transform: rotate(-8deg); }
@@ -27,12 +30,14 @@
 .wave {
   display: inline-block;
   animation: wave-animation 1.5s infinite; 
-  transform-origin: 70% 70%;
+  transform-origin: 70% 70%; 
 }
 
 </style>
 
 <div class="centered-content">
-  <code>Hello World <span class="wave">👋</span> </code><br>
-  <code style="font-size:18px !important">Coming Soon...</code>
+  <div>
+    <code>Hello World <span class="wave">👋</span></code><br>
+    <code style="font-size:18px !important">Coming Soon...</code>
+  </div>
 </div>
