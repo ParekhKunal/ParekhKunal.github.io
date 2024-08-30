@@ -6,15 +6,32 @@
 
 .centered-content {
   display: flex;
-  justify-content: center; /* Horizontally center */
-  align-items: center; /* Vertically center */
-  height: 100vh; /* Full viewport height */
-  font-size: 24px; /* Text size */
-  text-align: center; /* Center text */
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  font-size: 24px; 
+  text-align: center; 
+}
+
+  @keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wave {
+  display: inline-block;
+  animation: wave-animation 1.5s infinite; 
+  transform-origin: 70% 70%;
 }
 
 </style>
 
 <div class="centered-content">
-  <code>Hello World 👋 </code>
+  <code>Hello World <span class="wave">👋</span> </code>
 </div>
